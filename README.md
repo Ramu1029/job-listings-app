@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
 
 ### Refer to videos below:
@@ -430,3 +431,7 @@ Returns a response containing the job details
 > - Don't change the component folder names as those are the files being imported into the tests.
 > - **Do not remove the pre-filled code**
 > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+=======
+# job-listings-app
+A responsive job listing web application that helps users find relevant job opportunities using search and filter options such as job type, location, and keywords.
+>>>>>>> c9aaca77cc5261660ff6ec01ac296c37818b20d5
