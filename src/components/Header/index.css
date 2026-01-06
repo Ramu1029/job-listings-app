@@ -1,0 +1,81 @@
+.header-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+}
+
+.website-logo {
+  cursor: pointer;
+  height: 28px;
+  width: 90px;
+}
+.mobile-device-nav-items-container {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  align-items: center;
+}
+.mobile-view-nav-link {
+  text-decoration: none;
+}
+.mobile-view-logout-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.large-device-route-links-list-container {
+  display: none;
+}
+.logout-btn {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .website-logo {
+    height: 36px;
+    width: 120px;
+  }
+  .header-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .mobile-device-nav-items-container {
+    display: none;
+  }
+  .large-device-route-links-list-container {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .route-link {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #f1f5f9;
+  }
+
+  .logout-btn {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #4f46e5;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    height: 35px;
+    width: 90px;
+  }
+}

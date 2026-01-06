@@ -1,0 +1,16 @@
+.filter-option {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.input {
+  color: #f1f5f9;
+  cursor: pointer;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #f1f5f9;
+  cursor: pointer;
+}

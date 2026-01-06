@@ -1,0 +1,248 @@
+.job-details-container {
+  min-height: 100vh;
+  background-color: #121212;
+}
+.responsive-container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 18px;
+}
+.job-details-card {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 15px;
+}
+.route-link {
+  text-decoration: none;
+}
+.basic-company-info-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.company-logo {
+  height: 36px;
+  width: 36px;
+}
+.card-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+}
+.star-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.rating {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+}
+.rating-star {
+  color: #fbbf24;
+}
+.job-meta-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-employment-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.job-meta-data-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.meta-data {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+}
+.meta-data-icon {
+  color: #ffffff;
+}
+.package {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.job-details-card-separator {
+  background-color: #7e858e;
+  width: 100%;
+}
+.description-visit-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #6366f1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.card-sub-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+}
+.card-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+}
+.skills-section {
+  margin-top: 10px;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.life-at-company-section {
+  margin-top: 30px;
+}
+
+.company-environment-img {
+  height: 230px;
+  width: 100%;
+}
+.similar-jobs-section {
+  margin-top: 20px;
+}
+.similar-jobs-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+}
+.loader-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  height: 220px;
+  width: 250px;
+}
+.api-failure-error-msg {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #ffffff;
+}
+.api-failure-response-msg {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  .responsive-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .job-details-card {
+    border-radius: 14px;
+    padding: 24px;
+    margin-top: 20px;
+  }
+  .basic-company-info-section {
+    gap: 13px;
+  }
+  .company-logo {
+    height: 45px;
+    width: 45px;
+  }
+
+  .star-rating-container {
+    gap: 8px;
+  }
+
+  .location-employment-section {
+    gap: 18px;
+  }
+  .job-meta-data-container {
+    gap: 10px;
+  }
+  .meta-data {
+    font-size: 15px;
+  }
+  .package {
+    font-size: 17px;
+  }
+
+  .card-description {
+    font-size: 15px;
+  }
+  .skills-section {
+    margin-top: 15px;
+  }
+
+  .life-at-company-section {
+    margin-top: 35px;
+  }
+  .life-at-company-description-img-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  .company-environment-img {
+    height: 270px;
+    width: 300px;
+  }
+  .similar-jobs-section {
+    margin-top: 30px;
+  }
+  .similar-jobs-container {
+    gap: 20px;
+  }
+  .failure-img {
+    height: 280px;
+    width: 300px;
+  }
+  .api-failure-error-msg {
+    font-size: 40px;
+  }
+  .api-failure-response-msg {
+    font-size: 15px;
+  }
+  .skills-container {
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .failure-img {
+    height: 190px;
+    width: 200px;
+  }
+  .company-environment-img {
+    height: 175px;
+  }
+}
